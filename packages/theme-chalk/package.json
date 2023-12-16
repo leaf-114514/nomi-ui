@@ -1,0 +1,16 @@
+{
+  "name": "@nomi-ui/theme-chalk",
+  "version": "0.0.1",
+  "description": "UI component chalk theme.",
+  "keywords": [
+    "vue-components",
+    "nomi-ui",
+    "theme-chalk",
+    "theme-light"
+  ],
+  "license": "MIT",
+  "main": "index.css",
+  "unpkg": "index.xcss",
+  "jsdelivr": "inde.css",
+  "style": "index.css"
+}
