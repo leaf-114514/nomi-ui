@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "packageManager": "pnpm@8.12.0",
+  "workspaces": [
+    "packages/*",
+    "play",
+    "docs"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@nomi-ui/components": "workspace:*",
+    "@nomi-ui/hooks": "workspace:*",
+    "@nomi-ui/utils": "workspace:*",
+    "lodash-unified": "^1.0.3",
+    "typescript": "^5.3.3",
+    "vue": "^3.3.11"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "vite",
+        "react",
+        "react-dom"
+      ]
+    }
+  },
+  "lint-staged": {
+    "*.{vue,js,ts,jsx,tsx,md,json}": "eslint --fix"
+  },
+  "devDependencies": {
+    "unplugin-vue-macros": "^2.7.3"
+  }
+}
